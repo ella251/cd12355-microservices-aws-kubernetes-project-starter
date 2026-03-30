@@ -8,6 +8,22 @@ Observability is implemented using AWS CloudWatch Container Insights, which capt
 
 Releases are performed by updating application source code and triggering a new build through CodeBuild. A newly generated image is pushed to ECR and referenced by the Kubernetes Deployment, initiating a rolling update. This deployment model supports traceable, incremental releases while minimizing service disruption. 
 
+## Deployment Architecture and Release Process
+
+This project uses a container-based deployment workflow on AWS. The analytics application is packaged as a Docker image and built through AWS CodeBuild. Each successful build produces a container image that is pushed to Amazon Elastic Container Registry (ECR), which serves as the image repository for deployment.
+
+The application is deployed to Amazon Elastic Kubernetes Service (EKS). Kubernetes Deployment resources manage pod creation, scaling, and rolling updates, while Kubernetes Services expose stable internal networking for both the analytics application and the PostgreSQL database. Configuration is separated from the container image through Kubernetes ConfigMaps and Secrets so that environment-specific values can be updated without rebuilding the application image.
+
+Application observability is supported through AWS CloudWatch Container Insights, where container logs can be reviewed to confirm successful runtime behavior and troubleshoot issues.
+
+## How to Release Changes
+
+To release a new version of the application:
+1. Update the application source code in the GitHub repository.
+2. Push the changes to the repository connected to AWS CodeBuild.
+3. CodeBuild rebuilds the Docker image and pushes the updated image to Amazon ECR.
+4. Kubernetes pulls the updated image and applies the new version through a rolling deployment strategy.
+
 These images help show that the application was built and deployed successfully and the application is actively producing logs in CloudWatch. 
 
 <img width="1919" height="1199" alt="Screenshot 2026-03-31 001709" src="https://github.com/user-attachments/assets/883fa5a2-ef34-4ecc-968e-c9acf5e7c6e0" />
