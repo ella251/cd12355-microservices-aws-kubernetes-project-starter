@@ -42,4 +42,15 @@ These images help show that the application was built and deployed successfully 
 
 <img width="1913" height="1075" alt="Screenshot 2026-03-31 004310" src="https://github.com/user-attachments/assets/dec76566-2714-4613-89b9-ac851db475a2" />
 <img width="1913" height="1078" alt="Screenshot 2026-03-31 001425" src="https://github.com/user-attachments/assets/79129669-d043-46c7-8718-6c759b53fa81" />
-# trigger build
+
+
+**added screenshots:**
+
+<img width="1918" height="1079" alt="Screenshot 2026-03-31 070040" src="https://github.com/user-attachments/assets/d2c54d60-b4d7-4290-9425-35d0e1c4c3d7" />
+<img width="1912" height="1078" alt="Screenshot 2026-03-31 070525" src="https://github.com/user-attachments/assets/f963d269-14f3-4369-a14b-c1a2299adf66" />
+<img width="1911" height="1076" alt="Screenshot 2026-03-31 070501" src="https://github.com/user-attachments/assets/e0f872c0-05b8-40a0-a4a5-3fbc51228d57" />
+<img width="1916" height="1074" alt="Screenshot 2026-03-31 070438" src="https://github.com/user-attachments/assets/3b433ad5-2272-45fd-8d2d-79e6d4b259a2" />
+<img width="1912" height="1074" alt="Screenshot 2026-03-31 070057" src="https://github.com/user-attachments/assets/98731405-2ca3-4c4b-a61a-0ff7de3c8027" />
+<img width="1439" height="179" alt="Screenshot 2026-03-31 070843" src="https://github.com/user-attachments/assets/140d6944-8529-40fd-85ff-f8d457f2df42" />
+<img width="1917" height="1077" alt="image" src="https://github.com/user-attachments/assets/4d91b9b5-2ac7-44e7-b554-fc2985015d5b" />
+<img width="1916" height="1082" alt="Screenshot 2026-03-31 075527" src="https://github.com/user-attachments/assets/020f2727-df19-45ee-9e8a-833aef49958f" />
